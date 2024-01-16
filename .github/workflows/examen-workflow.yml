@@ -1,9 +1,6 @@
 name: examen workflow
 
-on:
- push:
-  branches:
-    - nueva-caracteristica
+on: push
 
 jobs: 
  build-Image:
